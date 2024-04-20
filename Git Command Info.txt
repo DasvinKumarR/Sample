@@ -1,0 +1,27 @@
+git init – Create an empty local repository.
+git add . – Add all the saved changes to the staging area.
+git commit -m “Commit Message” – Save staged changes to the local repository.
+git remote add origin remoteUrl – connect the local repo to the remote repo.
+git branch -m branchName – create a new branch with branchName.
+git push -u origin branchName– push all the local repo data to the remote repo on branch master.
+git pull - get all the remote changes to the local repository.
+Pushing code for First Time:
+
+git init
+git add .
+git commit -m “First Commit”
+git remote add origin remote url.
+git push -u origin branch Name
+Pushing code for nth Time:
+
+git add .
+git commit -m “Commit message”
+git push
+To change the branch
+
+git checkout branchName
+To Merge the branch
+
+Go to the base branch (git checkout git-demo)
+git merge changesBranch (git merge master)
+git push
